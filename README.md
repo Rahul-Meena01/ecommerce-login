@@ -30,7 +30,7 @@ A modern, responsive login page built with **React** and **pure CSS** for the "S
 
 ## 🚀 Live Demo
 
-[View Live Demo](https://rahul-meena01.github.io/ecommerce-login) *(Will be available after deployment)*
+[View Live Demo](https://rahul-meena01.github.io/ecommerce-login) _(Will be available after deployment)_
 
 ## 📸 Screenshots
 
@@ -150,7 +150,7 @@ Update the background image URL in CSS:
 
 ```css
 .background-image {
-  background-image: url('your-image-url');
+  background-image: url("your-image-url");
 }
 ```
 
