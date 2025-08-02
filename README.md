@@ -1,6 +1,6 @@
 # 🛍️ Shopper - E-commerce Login Page
 
-A modern, responsive login page built with **React** and **Tailwind CSS** for the "Shopper" e-commerce website. Features a stunning glassmorphism design with smooth animations and intuitive user experience.
+A modern, responsive login page built with **React** and **pure CSS** for the "Shopper" e-commerce website. Features a stunning glassmorphism design with smooth animations and intuitive user experience.
 
 ## ✨ Features
 
@@ -44,9 +44,9 @@ A modern, responsive login page built with **React** and **Tailwind CSS** for th
 ## 💪 Technologies Used
 
 - **React 18** - Modern React with hooks and functional components
-- **Tailwind CSS 3** - Utility-first CSS framework for rapid styling
-- **PostCSS** - CSS processing and optimization
-- **Autoprefixer** - Automatic vendor prefixing
+- **Pure CSS 3** - Custom CSS without any frameworks for complete control
+- **CSS3 Features** - Flexbox, Grid, Transitions, Backdrop-filter, and more
+- **Google Fonts** - Inter font family for modern typography
 - **Create React App** - Standard React application setup
 
 ## 📦 Installation & Setup
@@ -87,9 +87,7 @@ ecommerce-login/
 │   │   └── LoginForm.js      # Main login/signup component
 │   ├── App.js                # Root component
 │   ├── index.js              # React DOM entry point
-│   └── index.css             # Global styles and Tailwind imports
-├── tailwind.config.js        # Tailwind CSS configuration
-├── postcss.config.js         # PostCSS configuration
+│   └── index.css             # Global styles and custom CSS classes
 ├── package.json              # Dependencies and scripts
 └── README.md                 # Project documentation
 ```
@@ -111,32 +109,32 @@ ecommerce-login/
 
 ### Custom CSS Classes
 
-- `.glass` - Glassmorphism effect with backdrop blur
-- `.input-field` - Consistent input styling with focus states
-- `.btn-primary` - Primary button with gradient and hover effects
+- `.glass-card` - Glassmorphism effect with backdrop blur and transparency
+- `.input-field` - Consistent input styling with focus states and transitions
+- `.btn-primary` - Primary button with gradient background and hover effects
+- `.social-btn` - Social login buttons with glass effect
+- `.password-toggle` - Eye icon button for password visibility toggle
 
 ## 🔧 Customization
 
 ### Colors
 
-Modify colors in `tailwind.config.js`:
+Modify colors directly in the CSS file (`src/index.css`):
 
-```javascript
-theme: {
-  extend: {
-    colors: {
-      // Add your custom colors
-    }
-  }
+```css
+.btn-primary {
+  background: linear-gradient(to right, #your-color, #your-color);
 }
 ```
 
 ### Background Image
 
-Update the background image URL in `LoginForm.js`:
+Update the background image URL in CSS:
 
-```javascript
-backgroundImage: `url('your-image-url')`;
+```css
+.background-image {
+  background-image: url('your-image-url');
+}
 ```
 
 ### Social Login
@@ -188,7 +186,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - Background image from [Unsplash](https://unsplash.com)
 - Icons and design inspiration from modern UI/UX trends
-- Built with love using React and Tailwind CSS
+- Built with love using React and pure CSS
 
 ## 📞 Support
 
