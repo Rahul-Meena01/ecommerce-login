@@ -212,3 +212,7 @@ If you have any questions or need help, please open an issue on GitHub or contac
 ---
 
 ⭐ **Star this repository if you found it helpful!** ⭐
+
+
+**Attention**
+I was part of the frontend team for this project; my responsibility was designing and implementing the login/sign-up UI and client-side form handling.
